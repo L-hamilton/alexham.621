@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>用户注册</title>
+</head>
+
+<body>
+	<form>
+	<h3 align="center">用户注册</h3>
+ 	<table width="500" border="1" bgcolor="#FF9900" align="center" >
+		<tr>
+			<td align="right" height="20" width="100">用户名</td>
+			<td align="left" height="20" width="400"><input type="text" name="userName" size="18"> *</td>
+		</tr>
+		<tr>
+			<td align="right" height="20" width="100">密码</td>
+			<td align="left" height="20" width="400"><input type="password" name="pass" size="18"> *</td>
+		</tr>
+		<tr>
+			<td align="right" height="20" width="100">确认密码</td>
+			<td align="left" height="20" width="400"><input type="password" name="pass" size="18"> *</td>
+		</tr>
+		<tr>
+			<td align="right" height="20" width="100">性别</td>
+			<td align="left" height="20" width="400"><input type="radio" name="sex" value="男" checked="checked"/>男<input type="radio" name="sex" value="女"/>女</td>
+		</tr>
+		<tr>
+			<td align="right" height="20" width="100">出生日期</td>
+			<td align="left" height="20" width="400"><input type="date" name="date" size="40"></td>
+		</tr>
+		<tr>
+			<td align="right" height="20" width="100">最喜欢的颜色</td>
+				<td align="left" height="20" width="400">
+					<select name="color" id="color">
+					  <option value=""> 选择 </option>
+					  <option value="blue" class="blue"><blue>蓝色</blue></option>
+					  <option value="red" class="red"><red>红色</red></option>
+					  <option value="green" class="green"><green>绿色</green></option>
+					  <option value="yellow" class="yellow">黄色</option>
+					  <option value="cyan" class="black">黑色</option>
+					  <option value="purple" class="purple">紫色</option>
+					</select>
+				</td>
+		</tr>
+		<tr>
+			<td align="right" height="20" width="100">联系电话</td>
+			<td align="left" height="20" width="400"><input type="text" name="phone" size="11"></td>
+		</tr>
+		<tr>
+			<td align="right" height="20" width="100">电子邮箱</td>
+			<td align="left" height="20" width="400"><input type="email" name="email" size="40"> *</td>
+		</tr>
+		<tr>
+			<td align="right" height="20" width="100">最高学历</td>
+				<td align="left" height="20" width="400"><input type="radio" name="education" value="中专" />中专<input type="radio" name="education" value="大专"/>大专<input type="radio" name="education" value="大学" checked="checked"/>大学
+				</td>
+		</tr>
+		<tr>
+			<td align="right" height="20" width="100">职业</td>
+				<td align="left" height="20" width="400">
+					<select name="work">
+						<option value="教师">教师</option>
+						<option value="学生">学生</option>
+						<option value="管理人员">管理人员</option>
+						<option value="工人">工人</option>
+						<option value="个体从业者">个体从业者</option>
+						<option value="其他">其他</option>
+					</select> 
+				</td>
+		</tr>
+			<td align="right" height="20" width="100">爱好</td>
+				<td align="left" height="20" width="400"><input type="checkbox" name="education" value="上网" />上网<input type="checkbox" name="education" value="篮球"/>篮球<input type="checkbox" name="education" value="听歌" />听歌
+				<input type="checkbox" name="education" value="下棋"/>下棋
+				</td>
+			
+		<tr>
+			<td align="right" height="20" width="100">留言</td>
+				<td align="left" height="20" width="400"><textarea name="about" cols="40" rows="10">请输入您的留言信息...</textarea>
+				</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center">
+					<input type="submit" name="submit" value="提交"/>
+					<input type="reset" name="reset" value="重写"/>
+		    </td>
+		</tr>
+	</table>
+  </form>
+</body>
+</html>
